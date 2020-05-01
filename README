@@ -1,1 +1,27 @@
-this is a git repo
+this test is  done in linux ubuntu using linux cmds.
+sudo apt-get install git
+git config --global user.name "user_name"
+git config --global user.email "email_id"
+git init Mytest
+#Initialized empty Git repository in /home/akshay/Mytest/.git/
+cd Mytest
+gedit README
+#This is a git repo
+#sample c 
+ 
+#include<stdio.h>
+int main()
+{
+printf("hello world");
+return 0;
+}
+git add README
+git add sample.c
+git commit -m "some_message"
+Create a repository Mytest on GitHub. 
+git remote add origin https://github.com/user_name/Mytest.git
+git push origin master
+
+
+
+
